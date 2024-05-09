@@ -1,5 +1,5 @@
 '''
-Ler duas notas e informar a média, Se o valor digitado for menor do que 0 ou maior do que 10, o usuario deve digitar a nota novamente
+Ler duas notas e informar a média, Se o valor digitado for menor do que 0 ou maior do que 10, o usuario deve digitar a nota novamente $Exia 07
 '''
 
 nota1 = float(input('Digite sua primeira nota: '))
