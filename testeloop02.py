@@ -26,6 +26,6 @@ sexo = str(input('M ou F: '))
 while sexo not in 'M'and 'F':
     print('Valores inválidos!')
     sexo = str(input('Digite seu sexo novamente M ou F: '))
-estadocivil = str(input('Estado civil: '))
+estadocivil = str(input('Estado civil [S]: '))
 
 
