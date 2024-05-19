@@ -9,7 +9,7 @@
     #arquivo.read() lê todo o conteúdo do arquivo e o armazena na variável conteudo.
     #print(conteudo) imprime o conteúdo do arquivo.
 
-#Após abrir o arquivo usando open(), é uma boa prática usar o bloco with para garantir que o arquivo seja fechado corretamente após o uso, mesmo se ocorrerem exceções durante a execução do código. O bloco with cuida do fechamento do arquivo automaticamente quando você sai do bloco.
+#Após abrir o arquivo usando open(), é uma boa prática usar o bloco with para garantir que o arquivo seja fechado corretamente após o uso, mesmo se ocorrerem exceções durante a execução do código. O bloco with cuida do fechamento do arquivo automaticamente quando você sai do bloco. 
 
 #Código pra alterar o conteúdo:
 with open('file.txt', 'w') as texto:
