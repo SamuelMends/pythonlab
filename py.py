@@ -2,3 +2,5 @@
 
 #Fazer analises das formas do pensamento
 #Determinar quais operações são validas
+
+#Algoritimo é uma sequência de passos que visam atingir um objetivo
