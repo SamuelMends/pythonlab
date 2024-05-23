@@ -29,7 +29,7 @@
     #Descer o carro do macaco e seguir viagem.
 #Se o macaco estiver ruim, parar e ligar para emergencia.
 
-#Você dispõe de R$1.000,00 para comprar uma televisão. Escreva um algoritimo, considerando
+#Você dispõe de R$1.000,00 para comprar uma televisão. Escreva um algoritimo, considerando:
 #Existem 10 lojas de eletrodomésticos na sua cidade, e você deverá visitar todas elas
 #Pode acontecer de algumas ou nenhuma das lojas terem a televisão em estoque. 
 #Neste caso, você investirá todo o dinheiro
