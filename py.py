@@ -16,8 +16,17 @@
 
 #Verificar se o carro está completamente parado
 #Se o carro estiver parado 
-#Pegar o macaco para erguer o carro
+    #Verificar quantos pneus estão furados
+    #Se for mais de um pneu, ligar para a emergencia
+#Se for apenas um pneu
+#Verificar se o step está vazio
+#Se step estiver vazio, 
+    #ligar para a emergencia.
+#Se step estiver cheio.
+    #Pegar o macaco para erguer o carro
 #Se o macaco estiver bom, erguer o carro
+    #Pegar o step e realizar a troca
+    #Descer o carro do macaco e seguir viagem.
 #Se o macaco estiver ruim, parar e ligar para emergencia.
 
 
