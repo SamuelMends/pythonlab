@@ -6,3 +6,5 @@
 #Algoritimo é uma sequência de passos que visam atingir um objetivo
 
 #Uso correto dos processos de raciocinio na programação de computadores  
+
+#Algoritimo, é uma sequência de passos.
