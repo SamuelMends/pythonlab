@@ -15,7 +15,7 @@
 #Se dois pneus do carro estiverem furados
 
 #Verificar se o carro está completamente parado
-#Se o carro estiver parado 
+#Enquanto o carro estiver parado 
     #Verificar quantos pneus estão furados
     #Se for mais de um pneu, ligar para a emergencia
 #Se for apenas um pneu
@@ -28,6 +28,16 @@
     #Pegar o step e realizar a troca
     #Descer o carro do macaco e seguir viagem.
 #Se o macaco estiver ruim, parar e ligar para emergencia.
+
+#Você dispõe de R$1.000,00 para comprar uma televisão. Escreva um algoritimo, considerando
+#Existem 10 lojas de eletrodomésticos na sua cidade, e você deverá visitar todas elas
+#Pode acontecer de algumas ou nenhuma das lojas terem a televisão em estoque. 
+#Neste caso, você investirá todo o dinheiro
+#Em algumas lojas, o preço da televisão é maior ou menor do que R$1.000,00
+#Você só comprará a televisão se conseguir o preço até R$1.000,00. Caso consiga
+#preço menor, o restante o dinheiro deve ser investido.
+
+
 
 
 
