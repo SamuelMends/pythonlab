@@ -4,3 +4,5 @@
 #Determinar quais operações são validas
 
 #Algoritimo é uma sequência de passos que visam atingir um objetivo
+
+#Uso correto dos processos de raciocinio na programação de computadores  
