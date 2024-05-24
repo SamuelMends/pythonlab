@@ -4,8 +4,11 @@ nota3 = float(input('Digite sua história: '))
 med = (nota1 + nota2 + nota3)/3
 if med > 8:
     print('Parabéns você foi aprovado! Sua média foi de {:.2f}'.format(med))
-elif med < 8 and med > 4:
+elif med < 8 and med >= 4:
     print('Você ficou de recuperação pois sua média foi de {:.2f}'.format(med))
+    notaex = float(input('Digite a nota da recuperação: '))
+    if notaex > 7:
+        print('Parabéns sua nota foi superior a 7, você foi aprovado!')    
 elif med < 4:
     print('Infelizmente você não passou sua média foi de {:.2f}'.format(med))
 print('Até a próxima!')
