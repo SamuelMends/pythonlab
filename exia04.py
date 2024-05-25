@@ -40,5 +40,5 @@ while resp == 'S':
     prox_cal = prox_num * prox_num
     print(f'O quadrado do próximo número {prox_num} é {prox_cal}')
     resp = input('Deseja continuar? [S/N]: ').upper()
-
 print('Programa finalizado!')
+
