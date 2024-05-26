@@ -1,14 +1,13 @@
+#Importando Numpy:
 import numpy
-
-vetor = numpy.empty(6)
-vetor [0] = 10
-vetor [1] = 20
-vetor [2] = 30
-vetor [3] = 40
-vetor [4] = 50
-vetor [5] = 60
-
-print(vetor[5])
-
-for c in range(0,6):
+#Estabelecendo Vetor de 5 slots:
+vetor = numpy.empty(5)
+#Criando laço de repetição para armazenar dados nos 5 slots:
+for c in range(0,5):  
+#Adicionando os valores dos 5 slots de memória na variável VALOR:  
+    valor = float(input(f'Digite o valor {c+1}: '))
+#Adcionando os valores da Variável valor nos 5 slots do vetor:
+    vetor[c] = valor
+#Criando um novo laço para mostrar os valores do 5 slots:
+for c in range(0,5):
     print(vetor[c])
