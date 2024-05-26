@@ -1,17 +1,8 @@
-#Apresentar o quadrado dos npumeros inteiros de 15 a 200
-'''
-cont = 1
-num = int(input('Digite um número inteiro: '))
-while num < 15 or num > 200:
-    print('Número inválido!')
-    num = int(input('Digite um número inteiro novamente: '))
-cal = (num * num)
-print(f'O quadrado desse número é {cal}')
+#Apresentar o quadrado dos npumeros inteiros de 15 a 200 (CONTADOR)
 
-'''
 
 cont = 1
-num = int(input('Digite um número inteiro: '))
+num = int(input('Digite um número inteiro entre 15 e 200: '))
 while num < 15 or num > 200:
     print('Número inválido!')
     num = int(input('Digite um número inteiro novamente: '))
