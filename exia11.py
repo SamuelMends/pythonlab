@@ -8,7 +8,6 @@ vetorb = numpy.empty(10)
 for m in range (0,10):
     q = int(input(f'Digite o {m+1}º valor: '))
     vetora[m] = q
-cont = 1
-for vetorb in range(0,10):
-    vetorb = (vetora[m]**2)
-print(f'O valor dos vetores do tipo A são {vetora} e seus respectivos quadrados {vetorb}')
+    vetorb[m] = (vetora[m]**3)
+print(f'{vetora}')
+print(f'{vetorb}')
