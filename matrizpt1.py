@@ -7,6 +7,6 @@ matriz[1][0] = 9
 matriz[1][1] = 21
 
 for linha in range(0,2):
-    print(matriz[linha])
-for coluna in range(0,2):
-    print(matriz[coluna])
+   # print(matriz)
+    for coluna in range(0,2):
+        print(matriz[linha][coluna])
