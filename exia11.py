@@ -1,6 +1,6 @@
 #Leia um vetor A com 10 elementos do tipo real. Construir um vetor B de mesmo tipo, 
 #Sendo que cada elemento do vetor B deve ser o cubo de cada elemento correspondente do vetor A
-#Apresentar no final os dois valores.
+#Apresentar no final os dois vetores.
 
 import numpy
 vetora = numpy.empty(10)
