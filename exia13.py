@@ -8,6 +8,6 @@ for linha in range (0,3):
         matriz [linha][coluna] = data
 pesq = int(input('Digite o valor individual: '))
 if pesq in matriz:
-    print('Valores encontrados!')
+    print(f'Valores encontrados na posição {linha}{coluna}')
 else:
     print('Valores não encontrados!')
