@@ -5,17 +5,18 @@ import numpy
 matriza = numpy.empty([3,3])
 matrizb = numpy.empty([3,3])
 matrizc = numpy.empty([3,3])
+print('Preenchendo Matriz A:')
 for linha in range(0,3):
     for coluna in range(0,3):
         dataa = int(input(f'Digite o valor referente a linha {linha} e a coluna {coluna}: '))
         matriza[linha][coluna] = dataa
+print('Preenchendo Matriz B:')
 for linha in range(0,3):
     for coluna in range(0,3):
         datab = int(input(f'Digite o valor referente a linha {linha} e a coluna {coluna}: '))
         matrizb[linha][coluna] = datab
-matrizc[linha][coluna] = (numpy.sum(matriza))+(numpy.sum(matrizb))
-print('O somatório do valor das matrizes é de', matrizc[linha][coluna]) 
-
+print('Preenchendo Matriz C:')
 for linha in range(0,3):
     for coluna in range(0,3):
-        print(matrizb[linha][coluna])
+        matrizc[linha][coluna] = matriza[linha][coluna]+matrizb[linha][coluna]
+        print(matrizc[linha][coluna])
