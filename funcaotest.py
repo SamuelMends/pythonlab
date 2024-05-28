@@ -1,20 +1,11 @@
 
-msg = str(input('Digite uma mensagem: '))
 
-def lin(): 
-    print('-'*30)
-    print(msg)
-    print('-'*30)
-lin()
 
-'''
-lin()
-print('Sistema de Alunos')
-lin()
-lin()
-print('Cadastro de Funcionários')
-lin()
-lin()
-print('Erro do Sistema')
-lin()
-'''
+def nome(txt): 
+    print('-'*30)
+    print(txt)
+    print('-'*30)
+    
+nome('Samuel Quirino Mendes')
+nome('Eder Marques Caetano')
+nome('Thomas Shelby')
