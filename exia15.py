@@ -14,4 +14,8 @@ for linha in range(0,3):
         datab = int(input(f'Digite o valor referente a linha {linha} e a coluna {coluna}: '))
         matrizb[linha][coluna] = datab
 matrizc[linha][coluna] = (numpy.sum(matriza))+(numpy.sum(matrizb))
-print(matrizc[linha][coluna]) 
+print('O somatório do valor das matrizes é de', matrizc[linha][coluna]) 
+
+for linha in range(0,3):
+    for coluna in range(0,3):
+        print(matrizb[linha][coluna])
