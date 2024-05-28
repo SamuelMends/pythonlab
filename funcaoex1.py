@@ -1,4 +1,4 @@
-#Criando a função soma
+#Criando a função soma:
 
 def soma(a,b):
     print(f'A soma de A = {a} + B = {b}')
