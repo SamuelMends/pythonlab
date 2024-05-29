@@ -8,4 +8,18 @@
 
 def leitura():
     grau = float(input('Digite os graus em Cº: '))
-    
+    return grau
+
+
+def calculo(grau): #Função para calcular os graus
+    return (9 * grau + 160) / 5
+
+
+def resultado(cal):
+    print(f'Os graus passados em Cº equivalem em Fº {cal}')
+
+
+grau = leitura() #Nossa função leitura irá receber a variavel "Grau".
+cal = calculo(grau) #Precisamos apenas passar a variavel "Grau" pois nossa função 'calculo' já calcula.
+resultado(cal) #Precisamos apenas passar o resultado "Cal".
+
