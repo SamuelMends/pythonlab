@@ -16,7 +16,7 @@ def calculo(grau): #Função para calcular os graus
 
 
 def resultado(cal):
-    print(f'Os graus passados em Cº equivalem em Fº {cal}')
+    print(f'Os graus passados em Cº equivalem a Fº {cal}')
 
 
 grau = leitura() #Nossa função leitura irá receber a variavel "Grau".
