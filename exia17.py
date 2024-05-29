@@ -6,3 +6,6 @@
 # Função para fazer o cálculo:
 # Função para mostrar o resultado:
 
+def leitura():
+    grau = float(input('Digite os graus em Cº: '))
+    
