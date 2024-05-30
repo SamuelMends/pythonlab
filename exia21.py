@@ -22,3 +22,6 @@ def condition(v):
 
 v = leitura()
 condition(v)
+
+print('Digite uma número: ')
+numero = int(input())
