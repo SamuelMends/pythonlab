@@ -11,8 +11,8 @@ def leitura():
     return n1, n2, n3
 
 
-def calculo():
-    
+def calculo(n1,n2,n3):
+    return (n1+n2+n3)/3
 
 
 def condition(n):
