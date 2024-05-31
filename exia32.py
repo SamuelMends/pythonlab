@@ -2,4 +2,7 @@
 
 acu = 0
 for num in range(1,6):
-    n 
+    n = int(input(f'Digite o {num}º número: '))
+    acu = acu + n
+l1 = [acu]    
+print(l1)
