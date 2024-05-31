@@ -22,10 +22,11 @@ for n in range(5):
 med = sum(notas) / len(notas)
 print(f'Sua média é igual a {med}')
 """
-
+som = 0
 cont = 0 
 while cont < 5:
     nota = int(input(f'Digite sua {cont+1}º nota: '))
+    som += nota
     cont +=1
-med = nota/5
+med = som/5
 print(f'Sua média é igual a {med}')
