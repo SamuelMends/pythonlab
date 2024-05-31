@@ -5,25 +5,32 @@
 # Se o aluno pegou exame, deve ser lida a nota do exame. Se a nota do exame for maior do que 6.0, está aprovado, senão; está reprovado
 
 def leitura():
-    n1 = int(input('Digite sua nota N1: '))
-    n2 = int(input('Digite sua nota N2: '))
-    n3 = int(input('Digite sua nota N3: '))
-    return n1, n2, n3
+    a = int(input('Digite sua nota N1: '))
+    b = int(input('Digite sua nota N2: '))
+    c = int(input('Digite sua nota N3: '))
+    return a, b, c
 
 
-def calculo(n1,n2,n3):
-    return (n1+n2+n3)/3
+def calculo(a,b,c):
+    return (a+b+c)/3
 
 
-def condition(n):
-    if n <= 12:
-        print(f'Faixa etária CRIANÇA, idade: {n}')
-    elif n <=17:
-        print(f'Faixa etária ADOLESCENTE, idade: {n}')
-    elif n >= 18:
-        print(f'Faixa etária ADULTO, idade: {n}')
-    return n 
+def condition(med,exa):
+    if med <= 4:
+        print(f'Reprovado! média: {med:.2f}')
+    elif med <=6:
+        print(f'Exame! média: {med:.2f}')
+        exa = float(input('Digite a nota do exame: '))
+        if exa >= 6:
+            print(f'Aprovado no exame! Média: {exa:.2f}')
+        else:
+            print(f'Reprovado! Média: {exa:.2f}')
+    elif med >= 6:
+        print(f'Aprovado! Média: {med:.2f}')
+    return med, exa
 
 
-i = leitura()
-condition(i)
+a, b, c  = leitura()
+med = calculo(a,b,c)
+exa = None
+condition(med,exa)
