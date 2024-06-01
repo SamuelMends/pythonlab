@@ -4,24 +4,6 @@
 # Após a criação do arquivo de texto, faça a leitura do arquivo e mostre todos os alunos
 
 alunos = {'Pedro': 8.0, 'Maria': 10.0, 'Amilton': 7.5}
-"""
-with open('file.txt', 'w') as texto:
-    for element in alunos:
-        texto.write(element)
-        print(texto)
-"""
-"""
-#Código pra alterar o conteúdo:
-with open('file.txt', 'w') as texto:
-    texto.write('EU SOU O SAM DEV')
-    print(texto)
-"""
-"""
-#Código pra ver o conteúdo:
-with open('file.txt', 'r') as arquivo:
-    conteudo = arquivo.read()
-    print(conteudo)
-""" 
 
 # Gravando os alunos em um novo arquivo de texto
 with open('alunos.txt', 'w') as arquivo:
