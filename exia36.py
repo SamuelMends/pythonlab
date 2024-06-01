@@ -18,12 +18,13 @@
 
 import numpy as np
 
+lista = []
+
 while True:
   try:
-    valor1 = float(input('Digite o primeiro valor: '))
-    valor2 = float(input('Digite o segundo valor: '))
-    lista = [valor1, valor2]
-    resultado = np.divide(valor1,valor2)
+    lista.append(float(input('Digite o primeiro valor: ')))
+    lista.append(float(input('Digite o segundo valor: ')))
+    resultado = lista[0]/lista[1]
   except ValueError:
     print('Valor inválido')
   except ZeroDivisionError:
