@@ -19,5 +19,5 @@ import numpy as np #Importando o numpy e dando o nome de np
 np.array(lista).sum() #Vamos converter a lista para o formato array e depois usar o sum para somar os valores de dentro da lista
 
 
-# Dicionário: Crie um dicionário para armazenar o nome e a nota de 3 alunos, fazendo a leitura dos valores por meio de uma estrutura de repetição. Depois, crie uma nova estrutura de repetição para somar todas as notas e retornar a média
+
 
