@@ -6,4 +6,9 @@ for a in range(1,4):
     nota = float(input('Digite a nota: '))
     alunos[nome] = nota #Para adicionar um elemento no dicionário: acessamos colocamos colchetes
 print(alunos)
-print(alunos['maria'])
+
+soma = 0
+for nota in alunos.values():
+    print(nota)
+    soma += nota
+print('Média:', soma/3)
