@@ -23,9 +23,13 @@ class Triangulo:
 t1 = Triangulo(2, 1, 3, 4, 3)
 print(t1.lado1, t1.lado2, t1.lado3, t1.base, t1.altura)
 
+print(t1.tipo())
+
 print(t1.area())
 
 t2 = Triangulo(8, 8, 8, 16, 9)
 print(t2.lado1, t2.lado2, t2.lado3, t2.base, t2.altura)
+
+print(t2.tipo())
 
 print(t2.area())
