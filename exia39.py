@@ -28,7 +28,7 @@ class alunos:
         if self.med() >= 6.0:
             print(f'O Aluno {self.nome} está aprovado com média {self.med()}')
         else:
-            print('Aluno reprovado.')
+            print(f'Aluno {self.nome} reprovado.')
 
 
 a1 = alunos("Samuel", 10, 10)
@@ -37,5 +37,9 @@ print('Média geral', a1.med())
 a1.resultado()
 print('Pontos Totais', a1.total())
 
-# a2 = alunos(Jucelino, 3, 4)
+a2 = alunos("Pedro", 3, 8)
+
+print('Média geral', a2.med())
+a2.resultado()
+print('Pontos Totais', a2.total())
 
