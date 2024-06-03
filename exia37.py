@@ -14,7 +14,7 @@ with open('alunos.txt', 'w') as arquivo:
 with open('alunos.txt', 'r') as arquivo:
     for linha in arquivo:
         nome, nota = linha.strip().split(',')
-        
+        print(f"Nome: {nome}, Nota: {nota}")
 
 # Este código faz o seguinte:
 
