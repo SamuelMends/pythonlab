@@ -2,9 +2,14 @@
 
 import numpy as np
 
-lista = []
-c = 0
+numeros = []
+
 for c in range(1,6):
     num = int(input('Digite um número: '))
-    lista.append(num)
-    print(c)
+    numeros.append(num)
+
+maior = max(numeros)
+
+print(f'O maior número é {maior}')
+
+
