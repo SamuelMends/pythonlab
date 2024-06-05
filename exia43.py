@@ -2,4 +2,4 @@
 
 for c in range(0,21):
     print(c) #Reto
-    #print(c, end=" ") #Ao lado
+    print(c, end=" ") #Ao lado
