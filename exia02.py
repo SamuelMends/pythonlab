@@ -1,5 +1,5 @@
 #Leia um número interiro e informe se ele é positivo ou negativo (considere zero como positivo)
-#Exercicio 02:
+#Ex02
 
 num = int(input('Digite um número: '))
 if num >= 0:
