@@ -1,4 +1,4 @@
-print('Gerador de P.A') #Nosso gerador 
+print('Gerador de P.A') #Nosso gerador de PA
 print('-='*20)
 termo = int(input('Digite o termo: '))
 razao = int(input('Digite a razão: '))
